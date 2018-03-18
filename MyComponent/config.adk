@@ -1,0 +1,7 @@
+#Properties file
+#Sat Mar 10 13:05:42 IST 2018
+Adapter-Name=MyComponent
+Enable-Maven=true
+Adapter-Vendor=SAP
+Adapter-ID=MyComponent
+Adapter-Version=1.0.0
