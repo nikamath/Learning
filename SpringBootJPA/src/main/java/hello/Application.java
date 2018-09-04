@@ -17,7 +17,7 @@ public class Application {
         SpringApplication.run(Application.class);
     }
 
-    @Bean
+   /* @Bean
     public CommandLineRunner demo(EmployeeRepository repository) {
         return (args) -> {
             // save a couple of employees
@@ -55,6 +55,6 @@ public class Application {
             // }
             log.info("");
         };
-    }
+    }*/
 
 }
