@@ -12,7 +12,7 @@ public class CommandTest {
         ICommand lightOff = new LightOffCommand(light);
 
         HomeAutomationRemote remote = new HomeAutomationRemote();
-        remote.setCommand(() -> fan.turnOn()); //using lambda
+        remote.setCommand(fan::turnOn); //using method reference - equivalent of FanOnCommand
         remote.pressButton();
 
         remote.setCommand(lightOff);
