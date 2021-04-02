@@ -10,7 +10,7 @@
   <name>${project.groupId}.${project.artifactId}</name>
 
   <properties>
-    <camel.version>2.17.4</camel.version>
+    <camel.version>3.9.0</camel.version>
   </properties>
 
   <dependencies>
